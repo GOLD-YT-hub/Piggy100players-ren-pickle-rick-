@@ -1,7 +1,0 @@
-local bots = workspace.Map.Bots
-print("Please wait for after the bots spawn :D")
-
-while true do
-	bots:Destroy()
-	break
-end
