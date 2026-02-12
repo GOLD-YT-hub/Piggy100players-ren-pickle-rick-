@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/GOLD-YT-hub/Piggy-100-player-classic-scripts/refs/heads/main/extra/Pickle%20Ren
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GOLD-YT-hub/Piggy-100-player-classic-scripts/refs/heads/main/extra/Pickle%20Ren'))()
