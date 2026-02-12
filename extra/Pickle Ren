@@ -1,0 +1,18 @@
+local skinlist = game:GetService("Players").LocalPlayer.PlayerGui.MainMenu.Shop.ShopMenu.SkinList
+local player = game.Players.LocalPlayer
+local ren = game:GetService("StarterGui").MainMenu.Shop.ShopMenu.SkinList.Ren
+local purchaseren = game:GetService("StarterGui").MainMenu.Shop.ShopMenu.SkinList.Ren.Buy
+local pickle = game:GetService("StarterGui").MainMenu.Shop.ShopMenu.SkinList["Pickle Rick (for minitoon)"]
+local purchasepickle = game:GetService("StarterGui").MainMenu.Shop.ShopMenu.SkinList["Pickle Rick (for minitoon)"].Buy
+
+while true do
+	ren.Parent = skinlist
+	pickle.Parent = skinlist
+	pickle.Visible = true
+	ren.Visible = true
+	purchaseren.Visible = true
+	purchasepickle.Visible = true
+	print("Worked")
+	break
+end
+print("Ren And Pickle Rick Are Now Available")
